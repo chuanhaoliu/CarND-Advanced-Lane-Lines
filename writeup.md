@@ -44,10 +44,11 @@ Here you are!
 * Get camera calibration matrix and distortion coefficients via cv2.calibrateCamera function
 * Distort the image below via cv2.undistort funct
 
-<img src="./output_Images/Original_Test_Image.jpg" alt="Original Calibration Image"  width=50% height=50%>
+##### Original Calibration Image
+<img src="./output_Images/Original_Test_Image.jpg" width=50% height=50%>
 
-![alt text][image1]
-![alt text][image2]
+##### Undistorted Calibration Image
+<img src="./output_Images/Undistort_Test_Image.jpg" width=50% height=50%>
 
 ### Pipeline (single images)
 
