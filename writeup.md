@@ -24,7 +24,7 @@ The goals / steps of this project are the following:
 [image5]: ./output_Images/Binary_Threshold_Image.jpg "Binary Example"
 [image6]: ./output_Images/Perspective_Transform_Image.jpg "Warp Example"
 [image7]: ./output_Images/Fit_Polynomial_Warped_Image.jpg "Fit Visual"
-[image8]: ./output_Images/Add_Figure_LaneLines_Image.jpg "Output"
+[image8]: ./output_Images/Add_Figure_LaneLines_Image.jpg "Final Image Example with Lane Lines & Figures"
 [video1]: ./project_video_output.mp4 "Video"
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
@@ -55,7 +55,9 @@ Here you are!
 #### 1. Provide an example of a distortion-corrected image.
 * Read in one of the test images
 * Apply the matrix and coefficients generated in Step 1
+##### Original Test Image
 <img src="./output_Images/Original_Image.jpg" width=50% height=50%>
+##### Undistorted Test Image
 <img src="./output_Images/Undistort_Image.jpg" width=50% height=50%>
 
 #### 2. Describe how (and identify where in your code) you used color transforms, gradients or other methods to create a thresholded binary image.  Provide an example of a binary image result.
@@ -63,6 +65,7 @@ Here you are!
 * Threshold color S channel
 * Combine the two binary threshold into one for the final binary image result
 
+##### Binary Example
 ![alt text][image5]
 
 #### 3. Describe how (and identify where in your code) you performed a perspective transform and provide an example of a transformed image.
@@ -93,6 +96,7 @@ This resulted in the following source and destination points:
 | 1127, 720     | 960, 720      |
 | 695, 460      | 960, 0        |
 
+##### Wrap Example
 ![alt text][image6]
 
 #### 4. Describe how (and identify where in your code) you identified lane-line pixels and fit their positions with a polynomial?
@@ -102,6 +106,7 @@ This resulted in the following source and destination points:
 * Fit a polynomial to all the relevant pixels in the sliding windows
 * Set the area to search for activated pixels based on 'margin' parameter, using function search_around_poly() in the corresponding jupyter notebook cell
 
+##### Fit Visual
 ![alt text][image7]
 
 #### 5. Describe how (and identify where in your code) you calculated the radius of curvature of the lane and the position of the vehicle with respect to center.
@@ -122,6 +127,7 @@ Right lane curve radius in real world: 747.408772 m
 * Combine lane lines with undistorted image
 * Combine figure(Curvature&Vehicle Position) with undistorted image
 
+##### Final Image Example with Lane Lines & Figures
 ![alt text][image8]
 
 ---
