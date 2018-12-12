@@ -55,8 +55,8 @@ Here you are!
 #### 1. Provide an example of a distortion-corrected image.
 * Read in one of the test images
 * Apply the matrix and coefficients generated in Step 1
-![alt text][image3]
-![alt text][image4]
+<img src="./output_Images/Original_Image.jpg" width=50% height=50%>
+<img src="./output_Images/Undistort_Image.jpg" width=50% height=50%>
 
 #### 2. Describe how (and identify where in your code) you used color transforms, gradients or other methods to create a thresholded binary image.  Provide an example of a binary image result.
 * Threshold x gradient(for grayscaled image)
