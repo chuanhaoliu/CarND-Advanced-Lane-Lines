@@ -17,14 +17,14 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./output_images/Original_Test_Image.jpg "Original Calibration Image"
-[image2]: ./output_images/Undistort_Test_Image.jpg "Undistorted Calibration Image"
-[image3]: ./output_images/Original_Image.jpg "Original Image"
-[image4]: ./output_images/Undistort_Image.jpg "Undistorted Image"
-[image5]: ./output_images/Binary_Threshold_Image.jpg "Binary Example"
-[image6]: ./output_images/Perspective_Transform_Image.jpg "Warp Example"
-[image7]: ./output_images/Fit_Polynomial_Warped_Image.jpg "Fit Visual"
-[image8]: ./output_images/Add_Figure_LaneLines_Image.jpg "Output"
+[image1]: ./output_Images/Original_Test_Image.jpg "Original Calibration Image"
+[image2]: ./output_Images/Undistort_Test_Image.jpg "Undistorted Calibration Image"
+[image3]: ./output_Images/Original_Image.jpg "Original Image"
+[image4]: ./output_Images/Undistort_Image.jpg "Undistorted Image"
+[image5]: ./output_Images/Binary_Threshold_Image.jpg "Binary Example"
+[image6]: ./output_Images/Perspective_Transform_Image.jpg "Warp Example"
+[image7]: ./output_Images/Fit_Polynomial_Warped_Image.jpg "Fit Visual"
+[image8]: ./output_Images/Add_Figure_LaneLines_Image.jpg "Output"
 [video1]: ./project_video_output.mp4 "Video"
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
