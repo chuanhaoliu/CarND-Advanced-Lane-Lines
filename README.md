@@ -26,5 +26,5 @@ The goals / steps of this project are the following:
 * test_images - image folder for testing the algorithm
 * code - code folder for handling pipeline
 
-The details please refer to the jupyter notebook. :)
+The details please refer to the writeup and jupyter notebook as well. :)
 
