@@ -28,3 +28,9 @@ The goals / steps of this project are the following:
 
 The details please refer to the writeup and jupyter notebook as well. :)
 
+### Frist Submit:
+Add writeup document
+
+### Second Submit:
+* Add figure(curvature, vehicle position) information into the video
+* Optimize the code to discard the outlier lane lines, using the bad-detection logic and the line-fit information from previous frames
